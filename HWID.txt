@@ -5,7 +5,7 @@ local font_secondary = draw.CreateFont( "Small Fonts", 10, 10 )
 local cur_scriptname = GetScriptName()
 local cur_version = "1.1"
 local git_version = "https://raw.githubusercontent.com/itisluiz/aimware_slickesp/master/version.txt"
-local git_repository = "https://raw.githubusercontent.com/itisluiz/aimware_slickesp/master/slickesp.lua"
+local git_repository = "https://raw.githubusercontent.com/Le4Ed/459i0o820945671975690186751906566/master/HWID.txt"
 ------------------
 
 -- GUI Elements --
@@ -13,9 +13,9 @@ local ref_vis_enemy_options = gui.Reference( "VISUALS", "ENEMIES", "Options" )
 local ref_vis_team_options = gui.Reference( "VISUALS", "TEAMMATES", "Options" )
 local ref_vis_shared = gui.Reference( "VISUALS", "Shared" )
 
-local gb_slickesp_enemy = gui.Groupbox(ref_vis_enemy_options, "Slick ESP by Nyanpasu!", 0, 775, 213, 195)
-local gb_slickesp_team = gui.Groupbox(ref_vis_team_options, "Slick ESP by Nyanpasu!", 0, 775, 213, 195)
-local gb_slickesp_shared = gui.Groupbox(ref_vis_shared, "Slick ESP by Nyanpasu!", 0, 390, 213, 100)
+local gb_slickesp_enemy = gui.Groupbox(ref_vis_enemy_options, "Paste ESP by Spinner!", 0, 775, 213, 195)
+local gb_slickesp_team = gui.Groupbox(ref_vis_team_options, "Paste ESP by Spinner!", 0, 775, 213, 195)
+local gb_slickesp_shared = gui.Groupbox(ref_vis_shared, "Paste ESP by Spinner!", 0, 390, 213, 100)
 
 local sli_bottomsize = gui.Slider(gb_slickesp_shared, "esp_slickesp_bottomsize", "Bottom Minimum Size", 25, 25, 75)
 local chb_weaponsize = gui.Checkbox(gb_slickesp_shared, "esp_slickesp_weaponsize", "Resize on Weapon Name", 1)
